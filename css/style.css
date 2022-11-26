@@ -439,7 +439,6 @@ button {
 /* Footer */
 
 .footer-section .logo {
-  margin-top: -12px;
   margin-bottom: 20px;
 }
 
@@ -452,7 +451,7 @@ button {
 }
 
 .footer-section {
-  padding-top: 72px;
+  padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--hero-color);
 }
@@ -491,8 +490,7 @@ button {
 
 .sl-text {
   font-weight: 700;
-  line-height: 16px;
-  letter-spacing: 0.03em;
+  line-height: 1.14;
   text-transform: uppercase;
   color: var(--white-color);
   margin-bottom: 20px;
@@ -600,10 +598,7 @@ a {
 }
 
 .portfolio-link {
-  display: flex;
-  flex-direction: column;
-  height: 404px;
-  width: 100%;
+  display: block;
 }
 
 .portfolio-link:hover,
